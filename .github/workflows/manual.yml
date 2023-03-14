@@ -20,4 +20,4 @@ jobs:
     - name: devcontainers-ci
       uses: devcontainers/ci@v0.3
       with:
-        runCmd: "sudo chmod +x ./lint.sh && ./lint.sh"
+        runCmd: "sh ./lint.sh"
